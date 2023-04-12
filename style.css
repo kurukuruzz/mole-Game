@@ -1,0 +1,47 @@
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole {
+    background-image: url('mole.png');
+    background-size: cover;
+}
+
+.mole2{
+    background-image: url('mole2.png');
+    background-size: cover;
+}
+
+.right {
+    float: right;
+    margin-right: 400px;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style:none;
+}
+
+.score {
+    margin-left: 10px;
+    text-align: right;
+}
+
+.userName { 
+    margin-right: 50px;
+}
